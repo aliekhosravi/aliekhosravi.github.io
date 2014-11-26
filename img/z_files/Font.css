@@ -1,0 +1,171 @@
+﻿
+
+/* dast nevis */
+@font-face {
+    font-family: 'dast';
+    src: url('/UI/Fonts/dast.eot');
+    src: url('/UI/Fonts/dast.eot?#iefix') format('embedded-opentype'),                                      
+         url('/UI/Fonts/dast.woff') format('woff'),
+         url('/UI/Fonts/dast.ttf') format('truetype'),
+         url('/UI/Fonts/dast.svg#bmitra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* koodak */
+@font-face {
+  font-family: 'koodak';
+  src: url('/UI/Fonts/BKoodakBold.eot?#') format('eot'),  /* IE6–8 */
+       url('/UI/Fonts/BKoodakBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/UI/Fonts/Koodak.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+/* yekan */
+@font-face {
+  font-family: 'yekan';
+  src: url('/UI/Fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('/UI/Fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/UI/Fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+/* traffic */
+@font-face {
+  font-family: 'traffic';
+  src: url('/UI/Fonts/BTraffic.eot?#') format('eot'),  /* IE6–8 */
+       url('/UI/Fonts/BTraffic.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/UI/Fonts/BTraffic.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/* nazli */
+@font-face {
+  font-family: 'nazli';
+  src: url('/UI/Fonts/nazli.eot?#') format('eot'),  /* IE6–8 */
+       url('/UI/Fonts/nazli.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/UI/Fonts/nazli.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+/* irsans */
+@font-face {
+  font-family: 'irsans';
+  src: url('/UI/Fonts/irsans.eot?#') format('eot'),  /* IE6–8 */
+       url('/UI/Fonts/irsans.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/UI/Fonts/irsans.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+/* Nassim */
+@font-face {
+    font-family: 'Nassim';
+    src: url('/UI/Fonts/nassim-regular.eot');
+    src: url('/UI/Fonts/nassim-regular.eot?#iefix') format('embedded-opentype'),                                      
+         url('/UI/Fonts/nassim-regular.woff') format('woff'),
+         url('/UI/Fonts/nassim-regular.ttf') format('truetype'),
+         url('/UI/Fonts/nassim-regular.svg#bmitra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nassim';
+    src: url('/UI/Fonts/nassim-bold.eot');
+    src: url('/UI/Fonts/nassim-bold.eot?#iefix') format('embedded-opentype'),                                      
+         url('/UI/Fonts/nassim-bold.woff') format('woff'),
+         url('/UI/Fonts/nassim-bold.ttf') format('truetype'),
+         url('/UI/Fonts/nassim-bold.svg#bmitra') format('svg');
+    font-weight:bold ;
+    font-style: normal;
+}
+
+
+
+
+/* Mitra */
+@font-face {
+    font-family: 'Mitra';
+    src: url('/UI/Fonts/bmitra.eot');
+    src: url('/UI/Fonts/bmitra.eot?#iefix') format('embedded-opentype'),
+         url('/UI/Fonts/bmitra.woff') format('woff'),
+         url('/UI/Fonts/bmitra.ttf') format('truetype'),
+         url('/UI/Fonts/bmitra.svg#bmitra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mitra';
+    src: url('/UI/Fonts/mitra.eot');
+    src: url('/UI/Fonts/mitra.eot?#iefix') format('embedded-opentype'),                                      
+         url('/UI/Fonts/mitra.woff') format('woff'),
+         url('/UI/Fonts/mitra.ttf') format('truetype'),
+         url('/UI/Fonts/mitra.svg#mitra') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Nazanin */
+@font-face {
+    font-family: 'Nazanin';
+    src: url('/UI/Fonts/nazanin.eot');
+    src: url('/UI/Fonts/nazanin.eot?#iefix') format('embedded-opentype'),                                      
+         /*url('/UI/Fonts/nazanin.woff') format('woff'),*/
+         url('/UI/Fonts/nazanin.ttf') format('truetype'),
+         url('/UI/Fonts/nazanin.svg#bmitra') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    word-spacing:-1px;
+}
+
+@font-face {
+    font-family: 'Nazanin';
+    src: url('/UI/Fonts/bnazanin.eot');
+    src: url('/UI/Fonts/bnazanin.eot?#iefix') format('embedded-opentype'),                                      
+         url('/UI/Fonts/bnazanin.woff') format('woff'),
+         url('/UI/Fonts/bnazanin.ttf') format('truetype'),
+         url('/UI/Fonts/bnazanin.svg#bmitra') format('svg');
+    font-weight:normal ;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'btitr';
+    src: url('/UI/Fonts/btitr.eot');
+    src: url('/UI/Fonts/btitr.eot?#iefix') format('embedded-opentype'),
+         url('/UI/Fonts/btitr.woff') format('woff'),
+         url('/UI/Fonts/btitr.ttf') format('truetype'),
+         url('/UI/Fonts/btitr.svg#btitr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'revicons';
+  src: url('/UI/Fonts/revicons.eot?5510888');
+  src: url('/UI/Fonts/revicons.eot?5510888#iefix') format('embedded-opentype'),
+       url('/UI/Fonts/revicons.woff?5510888') format('woff'),
+       url('/UI/Fonts/revicons.ttf?5510888') format('truetype'),
+       url('/UI/Fonts/revicons.svg?5510888#revicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Microsoft';
+    src: url('/UI/Fonts/latest.eot');
+    src: url('/UI/Fonts/latest.eot?#iefix') format('embedded-opentype'),                                      
+         url('/UI/Fonts/latest.woff') format('woff'),
+         url('/UI/Fonts/latest.ttf') format('truetype'),
+         url('/UI/Fonts/latest.svg#bmitra') format('svg');
+    font-style: normal;
+}
