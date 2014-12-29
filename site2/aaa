@@ -1,0 +1,122 @@
+   <nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Title</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link7</a></li>
+            <li><a href="#">Link8</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+        </div>
+        </div>
+
+    <a href="#" class="btn btn-success"> Click me!</a>
+    <a href="#" class="btn btn-danger">Dontclick!</a>
+    <a href="#" class="btn btn-default">Defult</a>
+    <a href="#" class="btn btn-violate">New</a>
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Last Name
+            </th>
+        </tr>
+        <tr>
+            <td>
+احمد
+            </td>
+            <td>
+علی
+            </td>
+        </tr>
+
+    </table>
+<div class="row">
+    <div class=" col-sm-6 col-lg-3">
+        <p>Block 1</p>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <p>Block 2</p>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <p>Block 3</p>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+        <p>Block 4</p>
+    </div>
+</div>
+    <div class="col-md-4">
+        <img src="img/head.jpg" style="border-radius: 5px">
+    </div>
+    <div class="col-md-8">
+        <img src="img/2.jpg">
+    </div>
+
+
+
+     <ul class="col-md-12">
+                    <div class="col-md-3 box">
+                           <a href="#">
+                            <div class= "art1" ><img src="img/b5.jpg" style=" width: 150px;
+                                         height: 150px;">
+                            </div> </a>
+                           <a><p><h5>عکس</h5></p></a>
+                           <a> <p>بهار زحمتکش</p></a>
+                           </div>
+                        <div class="col-md-3 box">
+                           <a href="#">
+                            <div class= "art1" ><img src="img/f.jpg" style=" width: 150px;
+                                         height: 150px;">
+                            </div> </a>
+                           <a><p><h5>maryam</h5></p></a>
+                           <a> <p>ائلمان تقی دوست</p></a>
+                           </div>
+                         <div class="col-md-3 box">
+                           <a href="#">
+                            <div class= "art1" ><img src="img/a3.jpg"style=" width: 150px;
+                                         height: 150px;">
+                            </div> </a>
+                           <a><p><h5>عکاسی</h5></p></a>
+                           <a> <p>"شمسه"شیما اسسدی</p></a>
+                           </div>
+                           <div class="col-md-3 box">
+                           <a href="#">
+                            <div id="art1" ><img src="img/e.jpg" style=" width: 150px;
+                                         height: 150px;">
+                            </div> </a>
+                           <a><p><h5>grafic</h5></p></a>
+                           <a> <p>حجت اورمیاچ</p></a>
+                           </div>
+
+                        </ul>
