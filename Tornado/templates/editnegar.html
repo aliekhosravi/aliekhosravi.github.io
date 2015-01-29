@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>ویرایش</title>
+<link href='{{ static_url("css/bootstrap.css") }}' rel="stylesheet">
+<link href='{{ static_url("css/bootstrap-theme.css") }}' rel="stylesheet">
+    <link href='{{ static_url("css/basic.css") }}' rel="stylesheet">
+<meta charset="utf-8">
+</head>
+<body style="direction:rtl">
+<div class="row">&nbsp;</div>
+<div class="row">&nbsp;</div>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 ">
+        <h3 class="Yekan" style="color:#2233dd">ویرایش </h3>
+        <table>
+            <tr>
+                <td><img src="{{catInfo.img}}"/> </td>
+                <td> عکس قبلی </td>
+                <td>{{catInfo.id}}</td>
+            </tr>
+        </table>
+          <form method="post" action="/arthandler/edit/{{po.id}}">
+
+          <div class="form-group">
+
+            <label for="img" class="control-label Mitra" > نام و پسوند تصویر جدید</label>
+            <input type="text" name="img" value="{{po.image}}" id="img" class="form-control"/>
+            <label for="img" class="control-label Mitra" > عنوان تصویر</label>
+            <input type="text" name="img" value="{{po.title}}" id="tit" class="form-control"/>
+            <label for="img" class="control-label Mitra" > هنرمند</label>
+            <input type="text" name="img" value="{{po.anchor}}" id="anc" class="form-control"/>
+
+          </div>
+
+        <input type="submit" class="btn btn-primary Yekan" value="ذخیره تغییرات" >
+
+
+              </form>
+    </div>
+</div>
+<script src="{{static_url('js/jquery.js')}}"></script>
+<script src="{{static_url('js/bootstrap.js')}}"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href='{{ static_url("css/bootstrap.css") }}' rel="stylesheet">
+<link href='{{ static_url("css/bootstrap-theme.css") }}' rel="stylesheet">
+    <link href='{{ static_url("css/basic.css") }}' rel="stylesheet">
+
+</head>
+<body>
+<div class="row">&nbsp;</div>
+<div class="row">&nbsp;</div>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 ">
+        <h3 class="Yekan" style=" text-align: center; color:#2233dd">آلبوم ها و هنرمندان برگزیده</h3>
+
+        <br/>      <br/>      <br/>
+        <table class="table table-striped">
+        {% for po in post %}
+        <tr class="Mitra">
+        <td>{{po.id}}</td>
+        <td>{{po.title}}</td>
+        <td>{{ch.anchor}}</td>
+        <td><img class="stimg" src="{{po.image}}"></td>
+
+        <td> <a class="btn" href="/edit/{{po.id}}" > <span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp; ویرایش </button></td>
+         <td> <a class="btn" href="/delete/{{po.id}}" > <span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp; حذف </button></td>
+        </tr>
+        {% end %}
+       </table>
+    </div>
+</div>
+<script src="{{static_url('js/jquery.js')}}"></script>
+<script src="{{static_url('js/bootstrap.js')}}"></script>
+</body>
+</html>
